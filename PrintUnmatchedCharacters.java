@@ -1,9 +1,10 @@
-// Given a String we have to reverse the string without changing the
-// position of special characters, punctuations and spaces.
-//  Example :
-//  Input : House No : 123@ CBE
-//  Output : EBC32 1o : Nes@ uoH 
-
+Given two string of same length, print the characters which does not
+match in the two.
+ Example :
+ Input : String 1 = “abcdefeghijklm”
+ String 2 = “abcduabihijkim”
+ Output : Result = “eufaebgili” 
+ 
 import java.util.Scanner;
 
 public class PrintUnmatchedCharacters {
